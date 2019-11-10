@@ -1,26 +1,46 @@
 # Lucid Code challenge
+
 Code challenge proposed by Lucid during its hiring process.
 
-It was based on a description sent by the company which can be found on the Documentation section.
+It was based on a description sent by the company which can be found on the 
+Documentation section of this README file.
 
-On finishing, the version will be avaliable at http://api.salomao.net/.
+Requirements
+-----
+
+To run this application, you will need Python 3.7 or later installed.
+
+Assumptions
+-----
+
+ * Assumption 1 - Stop Condition
+  
+   As the Technical Assessment description does not provide a stop condition 
+while reading the input, it was assumed that a blank line is the stop 
+condition.
 
 Technical Debts
 -----
 
-Third-party Libraries and Tools
----------
-
-Instructions to Build
----------
-
 Instructions to Run (Command Line)
 ---------
+
+From the command-line, you can execute the main.py file and then type in the
+input lines. Considering you are at the root folder of this project:
+
+    python src/main.py
+    
+You can also provide a file with the input so it is easier to run. An example 
+of how to do it using the input procided in the test is:
+
+    python src/main.py < docs/example-input.txt
+
 
 Documentation
 ---------
 
- * Challenge description sent by the Company - [Lucid Technical Assessment.md](docs/Lucid%20Technical%20Assessment.md)
+ * Challenge description sent by the Company - 
+ [Lucid Technical Assessment.md](docs/Lucid%20Technical%20Assessment.md)
 
 License
 -------
