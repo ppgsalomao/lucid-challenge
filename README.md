@@ -19,21 +19,18 @@ Assumptions
 while reading the input, it was assumed that a blank line is the stop 
 condition.
 
-Technical Debts
------
-
 Instructions to Run (Command Line)
 ---------
 
 From the command-line, you can execute the main.py file and then type in the
 input lines. Considering you are at the root folder of this project:
 
-    python src/main.py
+    python src/main.py 16:10
     
 You can also provide a file with the input so it is easier to run. An example 
 of how to do it using the input procided in the test is:
 
-    python src/main.py < docs/example-input.txt
+    python src/main.py 16:10 < docs/example-input.txt
 
 
 Documentation
